@@ -6,5 +6,5 @@ if [ "$EUID" != 0 ]
 fi
 
 sudo systemctl stop nginx.service
-sudo systemctl stop php7.1-fpm.service
-sudo service mariadb stop
+sudo systemctl stop php7.3-fpm.service
+sudo systemctl stop mariadb.service
